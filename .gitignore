@@ -1,0 +1,28 @@
+# Corpus (cloned separately, see README)
+media_frames_corpus/
+
+# Generated data, predictions, model checkpoints
+*.pkl
+*.pt
+*.bin
+*.safetensors
+bin/
+handover/
+
+# Logs
+*.log
+
+# Environment
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+
+# LaTeX build files
+*.aux
+*.bbl
+*.blg
+*.out
+*.synctex.gz
